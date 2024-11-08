@@ -1,37 +1,39 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'LCD Solid';
+    src: url('Fonts/lcd_solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
+    font-family: 'LCD Solid', monospace;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     min-height: 100vh;
-    font-family: 'IBM Plex Mono', monospace;
     background-color: #ffffff;
     color: #333;
-    padding: 40px;
+    padding: 20px; /* Reduced padding to allow more space */
 }
 
 .container {
     text-align: left;
-    max-width: 600px;
+    max-width: 600px; /* Increased max-width to fit more text */
+    line-height: 1.6;
 }
 
 .username {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 1.8em;
     color: #333;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .links {
@@ -51,7 +53,7 @@ h1 {
 }
 
 .note-title {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 1em;
     color: #555;
     margin-top: 20px;
@@ -67,6 +69,7 @@ h1 {
     margin-top: 30px;
     font-size: 1.1em;
     color: #555;
+    text-align: left;
 }
 
 .footer p {
