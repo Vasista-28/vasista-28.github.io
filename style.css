@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #ffffff;
+    color: #333;
+    padding: 40px;
+}
+
+.container {
+    text-align: left;
+    max-width: 600px;
+}
+
+.username {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.links {
+    margin: 20px 0;
+}
+
+.links a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1em;
+}
+
+.links a:hover {
+    color: #0056b3;
+}
+
+.note-title {
+    font-weight: 600;
+    font-size: 1em;
+    color: #555;
+    margin-top: 20px;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #777;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.footer p {
+    margin: 5px 0;
+}
